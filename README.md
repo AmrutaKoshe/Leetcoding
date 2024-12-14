@@ -1,2 +1,2 @@
 # Leetcoding
-A repo containing all LC problems I've solved with their explanations. 
+I'm gonna start documenting the approach and solutions to LC problems that I solve in this repo. 
