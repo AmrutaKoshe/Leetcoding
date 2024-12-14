@@ -46,8 +46,11 @@ And then swap array[i+1] with array[j] (Before all elements till array[i] are sm
 
 Therefore, final array = [2,4,1,3,5,7,9,6,8]
 
--- This was just one iteration to place the pivot in its correct position. We do this recursively on both sides of the pivot to get a final sorted array at the end.
+-- This was just one iteration to position the pivot correctly. We do this recursively on both sides of the pivot to get a final sorted array at the end.
 
+*The Quick Select uses a similar approach, and it's used in cases where we have to find the top kth element. In this approach, however, we only sort that side of the array where the kth element would be present rather than both sides.
+For example, if we want to find the 3rd largest element in an array of size 4, that means we want the element which would be present on index 1.
+Hence, we only sort the side where the index 1 is present.*
 
 
 -------------------------------------------------------------------------------
