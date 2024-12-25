@@ -114,7 +114,7 @@ V = number of nodes(courses)
 Since we're gonna traverse through all the nodes and edges once, it'll be O(V+E)
 
 SPACE COMPLEXITY: 
-Graph representation- Adjacency List takes O(V+E) space
+Graph representation- Adjacency List takes O(V+E) space (but we won't consider this since its an input for the leetcode problem)
 Visited array- takes O(V) space
 Recursive Call Stack- takes O(V) space
 
@@ -156,6 +156,7 @@ But when there is a cycle, the nodes are inter-dependent on one another, so none
 Hence, the while loop breaks without traversing through all nodes and the length of top_order is not equal to num nodes.
 
 '''
+from collections import deque
 
 def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
 
@@ -189,3 +190,9 @@ def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
 
     else:
         return False
+    
+    '''
+    TIME COMPEXITY: O(V+E)
+    SPACE COMPLEXITY: O(V)
+
+    '''
