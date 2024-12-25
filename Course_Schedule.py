@@ -107,4 +107,17 @@ Then, we go through the neighbours recursively.
 Now, 1 is a neighbour for 4, but its already visited. Hence, return False.
 
 
+TIME COMPLEXITY: 
+E = number of edges(prerequisites list)
+V = number of nodes(courses)
+
+Since we're gonna traverse through all the nodes and edges once, it'll be O(V+E)
+
+SPACE COMPLEXITY: 
+Graph representation- Adjacency List takes O(V+E) space
+Visited array- takes O(V) space
+Recursive Call Stack- takes O(V) space
+
+Therefore, total space = O(V+E)
+
 '''
