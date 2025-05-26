@@ -1,45 +1,53 @@
 # LeetCode Solutions Documentation
 
-This repository contains my solutions and detailed explanations for various LeetCode problems. Each solution is implemented in Python and includes a thorough explanation of the approach, time complexity, and space complexity.
+This repository contains my solutions and detailed explanations for various LeetCode problems, implemented in Python using Jupyter notebooks. The notebooks include visual explanations, code implementations, and helpful images for understanding data structures and algorithms concepts.
 
 ## Repository Structure
 
 ```
-├── problems/
+├── notebooks/
 │   ├── easy/
 │   ├── medium/
 │   └── hard/
 └── README.md
 ```
 
-## Solution Format
-Each problem solution will be documented in its own directory under the appropriate difficulty level folder with the following structure:
+## Notebook Format
+Each problem solution is documented in a Jupyter notebook (.ipynb) with the following structure:
 
-```
-problems/[difficulty]/[problem-number]-[problem-name]/
-├── README.md (Problem description and approach)
-└── solution.py (Python implementation)
-```
-
-### Solution README Template
-Each problem's README.md should include:
-1. Problem Statement
-2. Examples
-3. Approach & Explanation
-4. Time Complexity
-5. Space Complexity
-6. Additional Notes (if any)
+1. Problem Statement & Examples
+2. Visual Explanations & Diagrams
+3. Approach Discussion
+4. Python Implementation
+5. Time & Space Complexity Analysis
+6. Test Cases & Results
 
 ## Getting Started
-1. Navigate to the problem difficulty folder (easy/medium/hard)
-2. Each problem has its own folder with a detailed README and solution
-3. Solutions are implemented in Python 3
+1. Navigate to the appropriate difficulty folder (easy/medium/hard)
+2. Open the notebook for the problem you're interested in
+3. Each notebook is self-contained with problem description, approach, and solution
 
-## Running the Solutions
-To run any solution:
+## Running the Notebooks
+Requirements:
+- Python 3.x
+- Jupyter Notebook/Lab
+- Required Python packages (if any) will be listed at the start of each notebook
+
+To run the notebooks:
 ```bash
-python problems/[difficulty]/[problem-number]-[problem-name]/solution.py
+jupyter notebook
+# or
+jupyter lab
 ```
 
-## Contributing
-Feel free to suggest improvements or alternative solutions by creating issues or pull requests.
+## Naming Convention
+Notebooks follow the naming convention:
+`L[Problem_Number]_[Problem_Name].ipynb`
+Example: L1_TwoSum.ipynb, L733_FloodFill.ipynb
+
+## Features
+- Visual explanations with images and diagrams
+- Step-by-step approach breakdowns
+- Interactive code cells for testing
+- Comprehensive problem analysis
+- Clean and consistent formatting
